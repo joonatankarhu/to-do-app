@@ -1,0 +1,64 @@
+.navbar header {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar header nav a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.navbar header nav a:hover {
+  background-color: rgba(100, 108, 255, 0.1);
+  color: #646cff;
+}
+
+.navbar header nav a.active {
+  color: #000000;
+  font-weight: 500;
+}
+
+.navbar header nav .user-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+}
+
+.navbar header nav .user-name {
+  color: #000000;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  text-transform: capitalize;
+}
+
+.navbar header nav .logout-button {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  font-size: 0.875rem;
+}
+
+.navbar header nav .logout-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.5);
+}
